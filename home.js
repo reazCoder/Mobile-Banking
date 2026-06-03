@@ -131,7 +131,7 @@ document.getElementById('transaction-button').addEventListener('click',function(
     transactionContainer.innerText = ""
 
     for(const data of transactionData){
-        const div = document.createEvent("div")
+        const div = document.createElement("div")
         div.innerHTML = `   <div class="bg-white rounded-xl p-3 flex justify-between items-center">
         <div class="flex items-center ">
             <div class="border-2 p-3 rounded-full">
